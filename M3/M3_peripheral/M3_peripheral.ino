@@ -1,3 +1,7 @@
+// What: example code for a peripheral
+// Where: https://github.com/ucla-hci/m119/blob/main/m2b_peripheral/m2b_peripheral.ino
+// Why: Provided by professor for use on project
+
 #include <ArduinoBLE.h>
 #include <Arduino_LSM6DS3.h>
 

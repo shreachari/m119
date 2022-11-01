@@ -1,4 +1,6 @@
-// based on the example on https://www.npmjs.com/package/@abandonware/noble
+// What: example central code
+// Where: based on the example on https://www.npmjs.com/package/@abandonware/noble
+// Why: provided by professor for use on project
 
 const noble = require('@abandonware/noble');
 
