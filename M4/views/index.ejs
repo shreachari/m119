@@ -1,0 +1,21 @@
+<!--
+  What: Pong code to implement html
+  Where: From https://codepen.io/pwdonald/pen/YPMzNx
+  Why: Implements Pong html, M4 spec allows us to reuse an existing Pong game codebase 
+  with proper acknowledgement to the original authors’ credits.
+-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Single Player Pong</title>
+    <link rel="stylesheet" href="board.css" />
+  </head>
+
+  <body>
+    <canvas id="gamescreen" width="450" height="450"> </canvas>
+    <div id="scoreBoard">Player 1 Score: <span id="score">0</span></div>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="engine.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
